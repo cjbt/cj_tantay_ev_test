@@ -84,8 +84,6 @@ const solution = (catalog, query) => {
   return sortedByPrice.map((item) => item.id);
 };
 
-solution(fullCatalog, 'wire');
-
 for (let testItem of [
   ['wire', [4, 7, 2, 9, 3]],
   ['wireless', [4, 7, 2, 9, 3]],
