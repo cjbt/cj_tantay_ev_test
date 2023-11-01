@@ -84,10 +84,6 @@ const solution = (catalog, query) => {
   return sortedByPrice.map((item) => item.id);
 };
 
-/**
- * Note: Instead of a hash, I used an array of array
- */
-
 solution(fullCatalog, 'wire');
 
 for (let testItem of [
