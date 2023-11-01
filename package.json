@@ -1,0 +1,17 @@
+{
+  "name": "evenbrite_test",
+  "module": "solution.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run solution.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
