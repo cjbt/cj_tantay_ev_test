@@ -12,13 +12,13 @@ const fullCatalog = [
     name: 'Wireless mouse',
     price: 789.99,
     tags: ['peripheral', 'wireless'],
-  }, // 2
-  { id: 3, name: 'Software', price: 89.99, tags: ['phone', 'wireless'] }, // 1
+  },
+  { id: 3, name: 'Software', price: 89.99, tags: ['phone', 'wireless'] },
   {
     id: 4,
     name: 'Wireless headset',
     price: 79.99,
-    tags: ['peripheral', 'wireless'], // 2
+    tags: ['peripheral', 'wireless'],
   },
   { id: 6, name: 'Laptop mouse', price: 389.99, tags: ['device', 'computer'] },
   { id: 5, name: 'Laptop', price: 489.99, tags: ['device', 'computer'] },
@@ -26,10 +26,10 @@ const fullCatalog = [
     id: 7,
     name: 'Wireless headset',
     price: 389.99,
-    tags: ['phone', 'wireless'], // 2
+    tags: ['phone', 'wireless'],
   },
   { id: 8, name: 'Laptop cooler', price: 789.99, tags: ['misc', 'peripheral'] },
-  { id: 9, name: 'Wireless thing', price: 889.99, tags: ['phone', 'wireless'] }, // 1
+  { id: 9, name: 'Wireless thing', price: 889.99, tags: ['phone', 'wireless'] },
 ];
 
 const getFrequency = (item, query) => {
