@@ -1,8 +1,8 @@
-# evenbrite_test
+# ev_test
 
 ## Note
 
-This is a working solution for eventbrite's technical assesment. I did not use chatgpt for this. I just googled lodash methods and continued where I left off.
+This is a working solution for ev's technical assessment. I did not use chatgpt for this. I just googled lodash methods and continued where I left off.
 
 ## Installation
 
